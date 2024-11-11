@@ -210,3 +210,35 @@
         }
     }
 }
+
+
+@media (max-width: 2050px) {
+    .footer-container {
+        .footer-happy-container {
+            .footer-100 {
+                font-size: 300px !important;
+            }
+            .footer-happy-button-container{
+                .footer-button{
+                    .material-symbols-outlined{
+                        font-size: 95px;
+                    }
+                }
+            }
+        }
+    }
+            
+
+}
+
+
+@media (max-width: 1650px) {
+    .footer-container {
+        .footer-happy-container {
+            .footer-100 {
+                font-size: 250px !important;
+            }
+        }
+    }
+
+}

@@ -651,3 +651,53 @@
         }
     }
 }
+
+
+@media (max-width: 2050px) {
+
+ .startpage-container{
+
+    .startpage-header{
+        .overlay-container{
+            .col{
+                .overlay-button-container{
+                    .row{
+                        .header-button-container{
+                            span.material-symbols-outlined{
+                                font-size: 95px;
+                            }
+                            height: 35vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+ .services-container{
+    .services-feature-container{
+        .services-feature{
+            .services-button{
+                .services-button-container{
+                    span.material-symbols-outlined{
+                        font-size: 95px;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+
+
+    h1{
+        font-size: 70px!important;
+    }
+    .overview-feature-container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+

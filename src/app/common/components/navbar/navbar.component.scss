@@ -282,3 +282,69 @@ body.menu-open {
         display: block;
     }
 }
+
+
+
+@media (max-width: 2050px) {
+
+    .navbar-container{
+        .navbar-main-menu {
+           
+            .row{
+                .col:first-of-type {
+                    .navbar-main-menu {
+                        height: 70px;
+                    }
+                }
+                .col:last-of-type {
+                    .navbar-contact-menu {
+                        height: 70px;
+                        padding: 0 20px;
+                        button.navbar-contact-button{
+                            height: 57px;
+                            font-size: 18px;
+                            width: 165px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 1650px) {
+    .navbar-container{
+        .row{
+            .navbar-main-menu {
+                .navbar-menu-list{
+                    padding: 0 30px!important;
+                    .navbar-logo{
+                        height: 40px!important;
+                    }
+                }
+                li{
+                    font-size: 18px;
+                }
+             }
+             .col:first-of-type {
+                .navbar-main-menu {
+                    height: 70px;
+                }
+            }
+            .col:last-of-type {
+                .navbar-contact-menu {
+                    height: 90px;
+                    button.navbar-contact-button{
+                        height: 79px;
+                    }
+                }
+            }
+        }
+
+    }
+}   
