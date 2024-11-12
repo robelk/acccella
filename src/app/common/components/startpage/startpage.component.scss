@@ -656,7 +656,6 @@
 @media (max-width: 2050px) {
 
  .startpage-container{
-
     .startpage-header{
         .overlay-container{
             .col{
@@ -687,9 +686,6 @@
         }
     }
  }
-
-
-
     h1{
         font-size: 70px!important;
     }
@@ -701,3 +697,104 @@
 }
 
 
+@media (max-width: 1450px) {
+   .startpage-container{
+        .startpage-header{
+            .startpage-header-video-container{
+                .overlay-container{
+                    .row{
+                        .mobile-scroll{
+                            .overlay-scroll-container {
+                                .scroll-arrow {
+                                    width: 60px;
+                                    height: 110px;
+                                }
+                                .material-symbols-outlined {
+                                    font-size: 30px;
+                                }
+                                .scroll-text {
+                                    font-size: 18px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .overlay-container{
+                .col{
+                    .overlay-button-container{
+                        .row{
+                            .header-button-container{
+                                h2{
+                                    font-size: 30px !important;
+                                }
+                                span.material-symbols-outlined{
+                                    font-size: 80px;
+                                }
+                                height: 40vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .overview-container{
+        .overview-feature-container{
+            .overview-feature-buttons{
+                gap: 20px;
+                button.overview-feature-button{
+                    padding: 12px 30px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .services-container{
+        .services-feature-container{
+            .services-feature{
+                .services-button{
+                    .services-button-container{
+                        h2{
+                            font-size: 30px !important;
+                        }
+                        span.material-symbols-outlined{
+                            font-size: 80px; 
+                        }
+                    }
+                }
+            }
+            .services-feature{
+                .services-button{
+                    h2.service-text{
+                        font-size: 30px !important;
+                    }
+                }
+            }
+        }
+     }
+
+     .technology-container{
+        .row{
+            .col-md.col-12{
+                .technology-text-container{
+                    h1{
+                        font-size: 50px !important;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 18px !important;
+                    }
+                }
+                img.technology-image{
+                    max-height: 390px;
+                }
+            }
+        }
+     }
+
+
+    h1{
+        font-size: 60px!important;
+    }
+}

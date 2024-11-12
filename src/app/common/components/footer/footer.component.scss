@@ -242,3 +242,41 @@
     }
 
 }
+
+@media (max-width: 1450px) {
+    .footer-container {
+        .footer-happy-container {
+            .footer-100 {
+                font-size: 230px !important;
+            }
+        }
+        .footer-happy-button-container{
+            h2.footer-happy-button-text{
+                font-size: 30px !important;
+            }
+            .footer-button{
+                span{
+                    font-size: 80px;
+                }
+            }
+        }
+        .footer-contact-container{
+            h1{
+                font-size: 50px !important;
+            }
+            form{
+                .footer-contact-input{
+                    font-size: 16px;
+                }
+                button.footer-contact-button{
+                    padding: 15px 50px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        p{
+            font-size: 18px!important;
+        }
+    }
+}

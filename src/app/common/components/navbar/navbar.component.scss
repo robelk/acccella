@@ -348,3 +348,33 @@ body.menu-open {
 
     }
 }   
+
+
+@media (max-width: 1450px) {
+    .navbar-container{
+        .row{
+            .navbar-main-menu {
+                min-width: 850px;
+                .navbar-menu-list{
+                    padding: 0 30px!important;
+                    .navbar-logo{
+                        height: 40px!important;
+                    }
+                }
+                li{
+                    font-size: 16px;
+                }
+             }
+            
+            .col:last-of-type {
+                .navbar-contact-menu {
+                    height: 90px;
+                    button.navbar-contact-button{
+                        font-size: 16px!important;
+                    }
+                }
+            }
+        }
+
+    }
+}
