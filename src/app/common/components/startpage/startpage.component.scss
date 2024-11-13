@@ -798,3 +798,194 @@
         font-size: 60px!important;
     }
 }
+
+
+@media (max-width: 1250px) {
+
+    .startpage-container{
+        p{
+            font-size: 16px!important;
+            line-height: 1.8!important;
+        }
+    }
+
+    .technology-container{
+        .row{
+            .col-md.col-12{
+                .technology-text-container{
+                    h1{
+                        font-size: 40px !important;
+                    }
+                    p{
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+     }
+
+     .overview-container{
+        .overview-feature-container{
+            .overview-feature-buttons{
+                gap: 15px;
+                button.overview-feature-button{
+                    padding: 8px 15px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    h1{
+        font-size: 50px!important;
+    }
+}
+
+
+
+@media (max-width: 1050px) {
+    .startpage-container{
+        .overlay-container{
+            .col{
+                .overlay-button-container{
+                    .row{
+                        .col{
+                            .header-button-container{
+                                h2.header-button{
+                                    font-size: 20px !important;
+                                    padding-top: 15px;
+                                    padding-left: 15px;
+                                }
+                                span.material-symbols-outlined{
+                                    font-size: 80px;
+                                }
+                                height: 40vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .technology-container{
+        .technology-text-container{
+            padding: 30px;
+        }
+    }
+    .overview-container{
+        .overview-feature-image-container{
+            .overview-feature-image{
+                width: 100%;
+            }
+        }
+    }
+   
+}
+
+
+@media (max-width: 1050px) {
+    .startpage-container{
+        .overlay-container{
+            .col{
+                .overlay-button-container{
+                    .row{
+                        .col{
+                            .header-button-container{
+                                span.material-symbols-outlined{
+                                    font-size: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .startpage-header{
+            .startpage-header-video-container{
+                .overlay-container{
+                    .row{
+                        .mobile-scroll{
+                            .overlay-scroll-container {
+                                left: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .overview-container{
+        .overview-feature-container{
+            .overview-feature-buttons{
+                gap: 10px;
+                button.overview-feature-button{
+                    padding: 8px 10px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .services-container{
+        .services-feature-container{
+            .services-feature{
+                .services-button{
+                    .services-button-container{
+                        h2{
+                            font-size: 25px !important;
+                        }
+                        span.material-symbols-outlined{
+                            font-size: 50px; 
+                        }
+                    }
+                }
+            }
+            .services-feature{
+                .services-button{
+                    h2.service-text{
+                        font-size: 30px !important;
+                    }
+                }
+            }
+        }
+     }
+     .technology-container{
+        .row{
+            .col-md.col-12{
+                .technology-text-container{
+                    h1{
+                        font-size: 30px !important;
+                    }
+                    p{
+                        font-size: 13px !important;
+                    }
+                }
+            }
+        }
+     }
+
+     .startpage-container{
+        .overlay-container{
+            .col{
+                .overlay-button-container{
+                    .row{
+                        .col{
+                            .header-button-container{
+                                height: 15vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .overview-feature-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    h1{
+        font-size: 30px!important;
+    }
+
+}
