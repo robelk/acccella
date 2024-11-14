@@ -7,7 +7,9 @@
     margin-top: 10px;
     width: 100%;
     top: 0;
-
+    max-width: 2560px;
+    margin-left: auto;
+    margin-right: auto;
     .navbar-main-menu {
         display: flex;
         align-items: center; // Vertically center the content
