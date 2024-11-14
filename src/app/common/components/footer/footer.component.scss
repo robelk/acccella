@@ -3,7 +3,12 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-
+.desktop-none{
+    display: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
 .footer-container {
     margin: 0 30px 30px 30px;
     background-color: #151515;
@@ -377,5 +382,11 @@ footer{
             }
         }
         
+    }
+    .desktop-none{
+        display: block;
+    }
+    p.copy-right{
+        display: none;
     }
 }
