@@ -125,3 +125,67 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.banner-area{
+    .common-container{
+        max-width: 2560px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#151515;
+        border-radius: 20px;
+       padding-top: 75px;
+       padding-bottom: 60px;
+       padding-left: 60px;
+       padding-right: 60px;
+        h4{
+            background-image: url(./assets/images/banner.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            font-size: 100px;
+            font-weight: 500;
+            color: #fff;
+            padding: 50px 60px;
+            border-radius: 20px;
+        }
+
+    }
+    margin: 0px 30px;
+}
+
+
+@media (max-width: 2050px) {
+
+    .banner-area{
+        .common-container{
+            h4{
+                font-size: 80px;
+            }
+    
+        }
+    }
+
+
+}
+@media (max-width: 1450px) {
+    .banner-area{
+        .common-container{
+            h4{
+                font-size:50px;
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-area{
+        .common-container{
+            h4{
+                font-size:30px;
+                padding: 20px;
+            }
+            padding: 20px;
+        }
+       
+    }
+}

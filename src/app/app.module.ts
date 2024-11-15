@@ -7,13 +7,15 @@ import { StartpageComponent } from './common/components/startpage/startpage.comp
 import { NavbarComponent } from './common/components/navbar/navbar.component';
 import { FooterComponent } from './common/components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { ContactusComponent } from './common/components/contactus/contactus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartpageComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
