@@ -8,6 +8,7 @@ import { NavbarComponent } from './common/components/navbar/navbar.component';
 import { FooterComponent } from './common/components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ContactusComponent } from './common/components/contactus/contactus.component';
+import { MobiltComponent } from './common/components/mobilt/mobilt.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContactusComponent } from './common/components/contactus/contactus.comp
     StartpageComponent,
     NavbarComponent,
     FooterComponent,
-    ContactusComponent
+    ContactusComponent,
+    MobiltComponent
   ],
   imports: [
     BrowserModule,
