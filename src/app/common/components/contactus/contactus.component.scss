@@ -1,6 +1,8 @@
+$width:2560px;
+
 .contact-form-area{
     .common-container{
-        max-width: 2560px;
+        max-width: $width;
         margin-left: auto;
         margin-right: auto;
         background-color:#151515;
