@@ -63,3 +63,105 @@
         }
     }
 }
+
+.analys-area{
+    .common-container{
+        h3{
+            font-size: 100px;
+            font-weight: 500;
+            margin-bottom: 80px;
+        }
+        .single-analys-area{
+            margin-bottom: 80px;
+            .col-md-4{
+                    background: linear-gradient(90.44deg, #FFFFFF 22.56%, #9EC2E7 96.65%);
+                    font-size: 445px;
+                    font-weight: 500;
+                    line-height: .9;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-align: center;
+                }
+            .col-md-8{
+                h4{
+                   font-size: 43px;
+                   font-weight: 500;
+                   margin-bottom: 30px;
+                }
+            }
+        }
+        background-color:#151515;
+        padding-top: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 20px;
+        max-width: 2560px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    margin: 0px 30px;
+}
+
+.skapa-area{
+    .common-container{
+        max-width: 2560px;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(180deg, #8DA8C1 -26.23%, #FFFFFF 37.61%);
+        padding-top: 125px;
+        
+        h3{
+            font-size: 100px;
+            font-weight: 500;
+        }
+        .single-skapa{
+            h4{
+                font-size: 43px;
+                font-weight: 500;
+                margin-bottom: 40px;
+                max-width: 720px;
+            }
+            p{
+                max-width: 670px;
+            }
+            .icon-area{
+                position: absolute;
+                right: 60px;
+                bottom: 50px;
+            }
+            a.more{
+                padding: 45px 80px;
+                color: #000;
+                font-size: 35px;
+                font-weight: 500;
+                border-radius: 100px;
+                display: inline-block;
+                background-color: #fff;
+                text-decoration: none;
+            }
+            padding: 60px 50px;
+            background-color: #151515;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            position: relative;
+            min-height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        .first-child.single-skapa{
+            min-height: 475px;
+        }
+        .small-child.single-skapa{
+            min-height: 724px;
+        }
+        .olive-color.single-skapa{
+            background: #74805F;
+
+        }
+    }
+    .mt-90{
+        margin-top: 90px;
+    }
+    margin: 0px 30px;
+}
